@@ -17,14 +17,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 82%;
 }
 
 
@@ -58,4 +58,28 @@ p.article {
 .cameraman {
     width: 314px;
     height: 315px;
+}
+
+.little {
+    display: flex;
+    margin-top: 100px;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.little-photo {
+    width: 232px;
+    height: 203px;
+}
+
+.footer-text {
+    width: 150px;
+    height: 78px;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 32.5px;
+    font-weight: 700px;
 }
