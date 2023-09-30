@@ -15,7 +15,7 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 98vw;
 }
@@ -25,6 +25,7 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 82%;
+    margin: 13vh 0;
 }
 
 
@@ -37,11 +38,10 @@ h1{
 }
 
 div.article {
-    width: 662px;
-    height: 374px;
     font-weight: 400px;
     font-size: 24px;
     line-height: 36px;
+    min-width: 537px;
 }
 
 p.article {
@@ -58,6 +58,7 @@ p.article {
 .cameraman {
     width: 314px;
     height: 315px;
+    margin: 0 10%;
 }
 
 .little {
@@ -66,6 +67,7 @@ p.article {
     width: 85%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .little-photo {
@@ -82,4 +84,78 @@ h3 {
     font-size: 25px;
     line-height: 32.5px;
     font-weight: 700px;
+}
+
+@media screen and (min-width: 831px) and (max-width: 1050px) {  /*Tablet*/
+    .little-photo {
+        display: none;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 32.443px;
+        width: 211.4px;
+        height: 53.86px;
+        font-weight: 700px;
+
+    }
+    p.article {
+        width: 380px;
+    font-size: 14px;
+    line-height: 21px;
+    }
+    .footer-text h3 {
+        width: 86.88px;
+        height: 22.59px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 19px;
+        
+    }
+    .cameraman {
+        width: 181.86px;
+        height: 182.44px;
+    }
+    div.article {
+        min-width: 0;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 830px) { /*Mobile*/
+    h1 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    p.article {
+font-size: 12px;
+line-height: 18px;
+    }
+    .cameraman {
+        width: 146.32px;
+height: 146.78px;
+margin: 0;
+    }
+    .big {
+        flex-direction: column;
+    }
+    .little-photo {
+        display: none;
+    }
+    .container {
+        align-items: center;
+    }
+    .little {
+        width: 50%;
+        align-self: flex-start;
+        margin-left: 30px;
+    }
+    div.article {
+        min-width: 0;
+        width: 90%;
+    }
+    h1 {
+        width: 90%;
+    }
+    .little {
+        margin-top: 0;
+    }
 }
