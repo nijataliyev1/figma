@@ -144,9 +144,9 @@ h3 {
         align-items: center;
     }
     .little {
-        width: 50%;
         align-self: flex-start;
         margin-left: 30px;
+        flex-wrap: wrap;
     }
     div.article {
         min-width: 0;
