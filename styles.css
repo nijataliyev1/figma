@@ -126,13 +126,13 @@ h3 {
         line-height: 26px;
     }
     p.article {
-font-size: 12px;
-line-height: 18px;
+        font-size: 12px;
+        line-height: 18px;
     }
     .cameraman {
         width: 146.32px;
-height: 146.78px;
-margin: 0;
+        height: 146.78px;
+        margin: 0;
     }
     .big {
         flex-direction: column;
@@ -157,5 +157,8 @@ margin: 0;
     }
     .little {
         margin-top: 0;
+    }
+    main {
+        width: 90%;
     }
 }
